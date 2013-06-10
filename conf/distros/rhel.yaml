@@ -289,7 +289,6 @@ components:
         -   name: numpy
     openstack-client:
         action_classes:
-            install: anvil.components.openstack_client:OpenStackClientInstaller
             running: anvil.components.base_runtime:EmptyRuntime
             test: anvil.components.openstack_client:OpenStackClientTester
             coverage: anvil.components.openstack_client:OpenStackClientTester
